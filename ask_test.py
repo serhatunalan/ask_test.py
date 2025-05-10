@@ -83,7 +83,3 @@ if st.button("🔍 Sonucumu Göster"):
 
     st.subheader(profiles[result]["title"])
     st.write(profiles[result]["desc"])
-
-    st.markdown("---")
-    st.markdown("🔗 Bu sonucu arkadaşlarınla paylaş!")
-    st.code("https://seninkisisayfan.com/test?sonuc=" + result)
